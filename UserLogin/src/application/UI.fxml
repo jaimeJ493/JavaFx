@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controlador">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="451.0" prefHeight="500.0" prefWidth="300.0" style="-fx-background-color: #2E323B;">
+         <children>
+            <Pane prefHeight="123.0" prefWidth="300.0">
+               <children>
+                  <FontAwesomeIconView fill="WHITE" glyphName="CLOSE" layoutX="266.0" layoutY="32.0" size="1.3em">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </FontAwesomeIconView>
+               </children>
+            </Pane>
+            <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #517CCC; -fx-background-radius: 5px;">
+               <children>
+                  <FontAwesomeIconView fill="WHITE" glyphName="FACEBOOK" size="2em" text="" />
+                  <Label text="LOGIN WITH FACEBOOK" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Microsoft Sans Serif" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="35.0" layoutY="235.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #64CCF1; -fx-background-radius: 5px;">
+               <children>
+                  <FontAwesomeIconView fill="WHITE" glyphName="TWITTER" size="2em" />
+                  <Label text="LOGIN WITH TWITTER" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Microsoft Sans Serif" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="35.0" layoutY="260.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #DF493C; -fx-background-radius: 5px;">
+               <children>
+                  <FontAwesomeIconView fill="WHITE" glyphName="GOOGLE" size="2em" />
+                  <Label text="LOGIN WITH GOOGLE" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Microsoft Sans Serif" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" layoutX="35.0" layoutY="285.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #1D547D; -fx-background-radius: 5px;">
+               <children>
+                  <FontAwesomeIconView fill="WHITE" glyphName="LINKEDIN" size="2em" />
+                  <Label text="LOGIN WITH  LINKEDIN" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Microsoft Sans Serif" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </HBox>
+         </children>
+      </VBox>
+      <Label layoutX="76.0" layoutY="123.0" text="User Login">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER_LEFT" layoutX="76.0" layoutY="175.0" prefHeight="40.0" prefWidth="300.0" style="-fx-border-color: #BEBFC1; -fx-background-radius: 5px; -fx-border-radius: 5px;">
+         <children>
+            <FontAwesomeIconView glyphName="ENVELOPE" glyphStyle="-fx-fill;#BEBFC1" opacity="0.24" size="1.2em" />
+            <TextField promptText="Email Address" style="-fx-background-color: transparent;" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextField>
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" layoutX="76.0" layoutY="242.0" prefHeight="40.0" prefWidth="300.0" style="-fx-border-color: #BEBFC1; -fx-background-radius: 5px; -fx-border-radius: 5px;">
+         <children>
+            <FontAwesomeIconView glyphName="LOCK" glyphStyle="-fx-fill;#BEBFC1" opacity="0.24" size="1.2em" />
+            <PasswordField promptText="Password" style="-fx-background-color: transparent;" HBox.hgrow="ALWAYS">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </PasswordField>
+         </children>
+         <padding>
+            <Insets left="10.0" />
+         </padding>
+      </HBox>
+      <Button layoutX="76.0" layoutY="319.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #41EAC1; -fx-background-radius: 5px;" text="Login">
+         <font>
+            <Font name="Segoe UI Light" size="15.0" />
+         </font>
+      </Button>
+      <CheckBox layoutX="254.0" layoutY="329.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="REMEMBER ME" />
+      <Pane layoutY="420.0" prefHeight="80.0" prefWidth="457.0">
+         <children>
+            <Button layoutX="27.0" layoutY="25.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.66" prefHeight="30.0" prefWidth="138.0" style="-fx-background-color: TRANSPARENT;" text="NEW USER?  REGISTER" underline="true">
+               <font>
+                  <Font name="Segoe UI Light" size="12.0" />
+               </font>
+            </Button>
+            <Button layoutX="278.0" layoutY="25.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" opacity="0.66" prefHeight="30.0" prefWidth="138.0" style="-fx-background-color: TRANSPARENT;" text="FORGET PASSWORD" underline="true">
+               <font>
+                  <Font name="Segoe UI Light" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
